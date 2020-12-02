@@ -23,7 +23,8 @@
   
   
   <?php 
-	$server = $_POST["server"]; 
+	$server = $_POST["server"];
+	$server1 = $_POST["server"];	
 	$load1 = $_POST["load1"]; 
 	$load2 = $_POST["load2"];
 	$load3 = $_POST["load3"];
@@ -40,7 +41,14 @@
 		  $server = ($server *2) + 1;
 	  }
 	}
-	echo $server;
+	
+	if ($server <= $server1){
+		echo $server;
+	}
+	else{
+		echo $server1;
+	}
+	
   ?>
 </body>
 
