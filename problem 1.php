@@ -1,6 +1,5 @@
 <?php	
-	$arr1=explode(' ',readline());
-	$ser=$arr1[0];
+	$ser=readline();
 	$arr2=explode(' ',readline());
 	for ($x = 0; $x < 5; $x++) {
 	  if ($arr2[$x] < 50){
