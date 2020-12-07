@@ -11,7 +11,7 @@ Output : The number of servers running at the end of 5 minutes
 ###### Example:
 **Input:**
 2 (2 servers)
-10 60 50 15 20 (On 1st minute - 10% load, on 2nd minute - 60% load & so on)
+10 60 50 15 20 (On 1st minute - 10% load, on 2nd minute - 60% load & so on) 
 **Output:**
 1 (After 5 minute, 1 server is running)
 
@@ -31,6 +31,6 @@ Output: Maximum profit possible
 ###### Example:
 **Input:**
 9 2 3 (9 breads, 2 vada, 3 samosa)
-10 15 (Rs.10 - Vadapav, Rs.15 - Samosapav)
+10 15 (Rs.10 - Vadapav, Rs.15 - Samosapav) 
 **Output:**
 55 (Maximum profit possible is Rs.55)
